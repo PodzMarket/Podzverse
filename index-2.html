@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>podzmarket.shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+    }
+    header {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 40px 0;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #ffffff;
+      letter-spacing: 2px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .product {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+      animation: fadeInUp 0.8s ease-in-out;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .product h2 {
+      margin-top: 0;
+      font-size: 1.6em;
+    }
+    .product p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    .options {
+      margin: 15px 0;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    .btn-contact {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .btn-contact:hover {
+      background-color: #1da851;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e1e1e;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PodzMarket</h1>
+    <p>Your destination for quality AirPods accessories</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="https://img.kwcdn.com/product/fancy/faec1c07-987a-45bc-9ce6-ccfbb205da2a.jpg?imageView2/2/w/800/q/70/format/webp" alt="AirPods Pro Max Style" />
+      <h2>AirPods Pro Max Style</h2>
+      <p>Premium look, wireless Bluetooth, powerful sound quality.</p>
+      <p><strong>Price: $24.99</strong></p>
+      <a class="btn-contact" href="https://wa.me/50688000881?text=Hi!%20I'm%20interested%20in%20the%20AirPods%20Pro%20Max%20Style%20from%20PodzMarket">Contact me for this product</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="https://img.kwcdn.com/product/open/2023-12-18/1702908673767-911c3ecad67e4b408c3ad3096e649471-goods.jpeg?imageView2/2/w/800/q/70/format/webp" alt="AirPods Case" />
+      <h2>AirPods Case</h2>
+      <p>Silicone protective case – Available for all AirPods models.</p>
+      <div class="options">
+        <label for="model">Choose Model:</label>
+        <select id="model">
+          <option>AirPods 1/2</option>
+          <option>AirPods Pro</option>
+        </select>
+        <label for="color">Choose Color:</label>
+        <select id="color">
+          <option>Black</option>
+          <option>White</option>
+        </select>
+      </div>
+      <p><strong>Price: $12.99</strong></p>
+      <a class="btn-contact" href="https://wa.me/50688000881?text=Hi!%20I'm%20interested%20in%20the%20AirPods%20Case%20from%20PodzMarket">Contact me for this product</a>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 podzmarket.shop – All rights reserved
+  </footer>
+</body>
+</html>
